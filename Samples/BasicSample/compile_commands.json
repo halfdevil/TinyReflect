@@ -1,0 +1,112 @@
+[
+{
+  "directory": "C:/dev/C++/TinyReflect/Build/windows-x64-release",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\PROFES~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -D_CONSOLE -IC:\\dev\\C++\\TinyReflect\\Framework\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++20 /FoFramework\\CMakeFiles\\TinyReflect-Framework.dir\\Source\\Class.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\C++\\TinyReflect\\Framework\\Source\\Class.cpp",
+  "file": "C:\\dev\\C++\\TinyReflect\\Framework\\Source\\Class.cpp"
+},
+{
+  "directory": "C:/dev/C++/TinyReflect/Build/windows-x64-release",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\PROFES~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -D_CONSOLE -IC:\\dev\\C++\\TinyReflect\\Framework\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++20 /FoFramework\\CMakeFiles\\TinyReflect-Framework.dir\\Source\\DefaultTypes.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\C++\\TinyReflect\\Framework\\Source\\DefaultTypes.cpp",
+  "file": "C:\\dev\\C++\\TinyReflect\\Framework\\Source\\DefaultTypes.cpp"
+},
+{
+  "directory": "C:/dev/C++/TinyReflect/Build/windows-x64-release",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\PROFES~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -D_CONSOLE -IC:\\dev\\C++\\TinyReflect\\Framework\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++20 /FoFramework\\CMakeFiles\\TinyReflect-Framework.dir\\Source\\Enum.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\C++\\TinyReflect\\Framework\\Source\\Enum.cpp",
+  "file": "C:\\dev\\C++\\TinyReflect\\Framework\\Source\\Enum.cpp"
+},
+{
+  "directory": "C:/dev/C++/TinyReflect/Build/windows-x64-release",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\PROFES~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -D_CONSOLE -IC:\\dev\\C++\\TinyReflect\\Framework\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++20 /FoFramework\\CMakeFiles\\TinyReflect-Framework.dir\\Source\\EnumMember.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\C++\\TinyReflect\\Framework\\Source\\EnumMember.cpp",
+  "file": "C:\\dev\\C++\\TinyReflect\\Framework\\Source\\EnumMember.cpp"
+},
+{
+  "directory": "C:/dev/C++/TinyReflect/Build/windows-x64-release",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\PROFES~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -D_CONSOLE -IC:\\dev\\C++\\TinyReflect\\Framework\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++20 /FoFramework\\CMakeFiles\\TinyReflect-Framework.dir\\Source\\Field.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\C++\\TinyReflect\\Framework\\Source\\Field.cpp",
+  "file": "C:\\dev\\C++\\TinyReflect\\Framework\\Source\\Field.cpp"
+},
+{
+  "directory": "C:/dev/C++/TinyReflect/Build/windows-x64-release",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\PROFES~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -D_CONSOLE -IC:\\dev\\C++\\TinyReflect\\Framework\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++20 /FoFramework\\CMakeFiles\\TinyReflect-Framework.dir\\Source\\File.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\C++\\TinyReflect\\Framework\\Source\\File.cpp",
+  "file": "C:\\dev\\C++\\TinyReflect\\Framework\\Source\\File.cpp"
+},
+{
+  "directory": "C:/dev/C++/TinyReflect/Build/windows-x64-release",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\PROFES~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -D_CONSOLE -IC:\\dev\\C++\\TinyReflect\\Framework\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++20 /FoFramework\\CMakeFiles\\TinyReflect-Framework.dir\\Source\\FileReader.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\C++\\TinyReflect\\Framework\\Source\\FileReader.cpp",
+  "file": "C:\\dev\\C++\\TinyReflect\\Framework\\Source\\FileReader.cpp"
+},
+{
+  "directory": "C:/dev/C++/TinyReflect/Build/windows-x64-release",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\PROFES~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -D_CONSOLE -IC:\\dev\\C++\\TinyReflect\\Framework\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++20 /FoFramework\\CMakeFiles\\TinyReflect-Framework.dir\\Source\\FileWriter.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\C++\\TinyReflect\\Framework\\Source\\FileWriter.cpp",
+  "file": "C:\\dev\\C++\\TinyReflect\\Framework\\Source\\FileWriter.cpp"
+},
+{
+  "directory": "C:/dev/C++/TinyReflect/Build/windows-x64-release",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\PROFES~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -D_CONSOLE -IC:\\dev\\C++\\TinyReflect\\Framework\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++20 /FoFramework\\CMakeFiles\\TinyReflect-Framework.dir\\Source\\StringClass.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\C++\\TinyReflect\\Framework\\Source\\StringClass.cpp",
+  "file": "C:\\dev\\C++\\TinyReflect\\Framework\\Source\\StringClass.cpp"
+},
+{
+  "directory": "C:/dev/C++/TinyReflect/Build/windows-x64-release",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\PROFES~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -D_CONSOLE -IC:\\dev\\C++\\TinyReflect\\Framework\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++20 /FoFramework\\CMakeFiles\\TinyReflect-Framework.dir\\Source\\TemplateClass.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\C++\\TinyReflect\\Framework\\Source\\TemplateClass.cpp",
+  "file": "C:\\dev\\C++\\TinyReflect\\Framework\\Source\\TemplateClass.cpp"
+},
+{
+  "directory": "C:/dev/C++/TinyReflect/Build/windows-x64-release",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\PROFES~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -D_CONSOLE -IC:\\dev\\C++\\TinyReflect\\Framework\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++20 /FoFramework\\CMakeFiles\\TinyReflect-Framework.dir\\Source\\Type.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\C++\\TinyReflect\\Framework\\Source\\Type.cpp",
+  "file": "C:\\dev\\C++\\TinyReflect\\Framework\\Source\\Type.cpp"
+},
+{
+  "directory": "C:/dev/C++/TinyReflect/Build/windows-x64-release",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\PROFES~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DUNICODE -D_CONSOLE -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_NONSTDC_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS -DUNICODE -D_UNICODE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -D_CRT_SECURE_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS -D_UNICODE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -IC:\\llvm\\include -IC:\\dev\\C++\\TinyReflect\\HeaderTool\\Include -IC:\\dev\\C++\\TinyReflect\\Framework\\Include /DWIN32 /D_WINDOWS   /Zc:inline /Zc:__cplusplus /Oi /bigobj /permissive- /W4 -wd4141 -wd4146 -wd4244 -wd4267 -wd4291 -wd4351 -wd4456 -wd4457 -wd4458 -wd4459 -wd4503 -wd4624 -wd4722 -wd4100 -wd4127 -wd4512 -wd4505 -wd4610 -wd4510 -wd4702 -wd4245 -wd4706 -wd4310 -wd4701 -wd4703 -wd4389 -wd4611 -wd4805 -wd4204 -wd4577 -wd4091 -wd4592 -wd4319 -wd4709 -wd4324 -w14062 -we4238 /Gw /MD /O2 /Ob2 /DNDEBUG -std:c++20 /FoHeaderTool\\CMakeFiles\\TinyReflect-HeaderTool.dir\\Source\\Common.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\C++\\TinyReflect\\HeaderTool\\Source\\Common.cpp",
+  "file": "C:\\dev\\C++\\TinyReflect\\HeaderTool\\Source\\Common.cpp"
+},
+{
+  "directory": "C:/dev/C++/TinyReflect/Build/windows-x64-release",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\PROFES~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DUNICODE -D_CONSOLE -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_NONSTDC_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS -DUNICODE -D_UNICODE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -D_CRT_SECURE_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS -D_UNICODE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -IC:\\llvm\\include -IC:\\dev\\C++\\TinyReflect\\HeaderTool\\Include -IC:\\dev\\C++\\TinyReflect\\Framework\\Include /DWIN32 /D_WINDOWS   /Zc:inline /Zc:__cplusplus /Oi /bigobj /permissive- /W4 -wd4141 -wd4146 -wd4244 -wd4267 -wd4291 -wd4351 -wd4456 -wd4457 -wd4458 -wd4459 -wd4503 -wd4624 -wd4722 -wd4100 -wd4127 -wd4512 -wd4505 -wd4610 -wd4510 -wd4702 -wd4245 -wd4706 -wd4310 -wd4701 -wd4703 -wd4389 -wd4611 -wd4805 -wd4204 -wd4577 -wd4091 -wd4592 -wd4319 -wd4709 -wd4324 -w14062 -we4238 /Gw /MD /O2 /Ob2 /DNDEBUG -std:c++20 /FoHeaderTool\\CMakeFiles\\TinyReflect-HeaderTool.dir\\Source\\Generator.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\C++\\TinyReflect\\HeaderTool\\Source\\Generator.cpp",
+  "file": "C:\\dev\\C++\\TinyReflect\\HeaderTool\\Source\\Generator.cpp"
+},
+{
+  "directory": "C:/dev/C++/TinyReflect/Build/windows-x64-release",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\PROFES~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DUNICODE -D_CONSOLE -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_NONSTDC_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS -DUNICODE -D_UNICODE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -D_CRT_SECURE_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS -D_UNICODE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -IC:\\llvm\\include -IC:\\dev\\C++\\TinyReflect\\HeaderTool\\Include -IC:\\dev\\C++\\TinyReflect\\Framework\\Include /DWIN32 /D_WINDOWS   /Zc:inline /Zc:__cplusplus /Oi /bigobj /permissive- /W4 -wd4141 -wd4146 -wd4244 -wd4267 -wd4291 -wd4351 -wd4456 -wd4457 -wd4458 -wd4459 -wd4503 -wd4624 -wd4722 -wd4100 -wd4127 -wd4512 -wd4505 -wd4610 -wd4510 -wd4702 -wd4245 -wd4706 -wd4310 -wd4701 -wd4703 -wd4389 -wd4611 -wd4805 -wd4204 -wd4577 -wd4091 -wd4592 -wd4319 -wd4709 -wd4324 -w14062 -we4238 /Gw /MD /O2 /Ob2 /DNDEBUG -std:c++20 /FoHeaderTool\\CMakeFiles\\TinyReflect-HeaderTool.dir\\Source\\HeaderTool.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\C++\\TinyReflect\\HeaderTool\\Source\\HeaderTool.cpp",
+  "file": "C:\\dev\\C++\\TinyReflect\\HeaderTool\\Source\\HeaderTool.cpp"
+},
+{
+  "directory": "C:/dev/C++/TinyReflect/Build/windows-x64-release",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\PROFES~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DUNICODE -D_CONSOLE -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_NONSTDC_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS -DUNICODE -D_UNICODE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -D_CRT_SECURE_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS -D_UNICODE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -IC:\\llvm\\include -IC:\\dev\\C++\\TinyReflect\\HeaderTool\\Include -IC:\\dev\\C++\\TinyReflect\\Framework\\Include /DWIN32 /D_WINDOWS   /Zc:inline /Zc:__cplusplus /Oi /bigobj /permissive- /W4 -wd4141 -wd4146 -wd4244 -wd4267 -wd4291 -wd4351 -wd4456 -wd4457 -wd4458 -wd4459 -wd4503 -wd4624 -wd4722 -wd4100 -wd4127 -wd4512 -wd4505 -wd4610 -wd4510 -wd4702 -wd4245 -wd4706 -wd4310 -wd4701 -wd4703 -wd4389 -wd4611 -wd4805 -wd4204 -wd4577 -wd4091 -wd4592 -wd4319 -wd4709 -wd4324 -w14062 -we4238 /Gw /MD /O2 /Ob2 /DNDEBUG -std:c++20 /FoHeaderTool\\CMakeFiles\\TinyReflect-HeaderTool.dir\\Source\\ReflectedClass.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\C++\\TinyReflect\\HeaderTool\\Source\\ReflectedClass.cpp",
+  "file": "C:\\dev\\C++\\TinyReflect\\HeaderTool\\Source\\ReflectedClass.cpp"
+},
+{
+  "directory": "C:/dev/C++/TinyReflect/Build/windows-x64-release",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\PROFES~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DUNICODE -D_CONSOLE -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_NONSTDC_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS -DUNICODE -D_UNICODE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -D_CRT_SECURE_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS -D_UNICODE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -IC:\\llvm\\include -IC:\\dev\\C++\\TinyReflect\\HeaderTool\\Include -IC:\\dev\\C++\\TinyReflect\\Framework\\Include /DWIN32 /D_WINDOWS   /Zc:inline /Zc:__cplusplus /Oi /bigobj /permissive- /W4 -wd4141 -wd4146 -wd4244 -wd4267 -wd4291 -wd4351 -wd4456 -wd4457 -wd4458 -wd4459 -wd4503 -wd4624 -wd4722 -wd4100 -wd4127 -wd4512 -wd4505 -wd4610 -wd4510 -wd4702 -wd4245 -wd4706 -wd4310 -wd4701 -wd4703 -wd4389 -wd4611 -wd4805 -wd4204 -wd4577 -wd4091 -wd4592 -wd4319 -wd4709 -wd4324 -w14062 -we4238 /Gw /MD /O2 /Ob2 /DNDEBUG -std:c++20 /FoHeaderTool\\CMakeFiles\\TinyReflect-HeaderTool.dir\\Source\\ReflectedEnum.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\C++\\TinyReflect\\HeaderTool\\Source\\ReflectedEnum.cpp",
+  "file": "C:\\dev\\C++\\TinyReflect\\HeaderTool\\Source\\ReflectedEnum.cpp"
+},
+{
+  "directory": "C:/dev/C++/TinyReflect/Build/windows-x64-release",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\PROFES~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DUNICODE -D_CONSOLE -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_NONSTDC_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS -DUNICODE -D_UNICODE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -D_CRT_SECURE_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS -D_UNICODE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -IC:\\llvm\\include -IC:\\dev\\C++\\TinyReflect\\HeaderTool\\Include -IC:\\dev\\C++\\TinyReflect\\Framework\\Include /DWIN32 /D_WINDOWS   /Zc:inline /Zc:__cplusplus /Oi /bigobj /permissive- /W4 -wd4141 -wd4146 -wd4244 -wd4267 -wd4291 -wd4351 -wd4456 -wd4457 -wd4458 -wd4459 -wd4503 -wd4624 -wd4722 -wd4100 -wd4127 -wd4512 -wd4505 -wd4610 -wd4510 -wd4702 -wd4245 -wd4706 -wd4310 -wd4701 -wd4703 -wd4389 -wd4611 -wd4805 -wd4204 -wd4577 -wd4091 -wd4592 -wd4319 -wd4709 -wd4324 -w14062 -we4238 /Gw /MD /O2 /Ob2 /DNDEBUG -std:c++20 /FoHeaderTool\\CMakeFiles\\TinyReflect-HeaderTool.dir\\Source\\ReflectedField.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\C++\\TinyReflect\\HeaderTool\\Source\\ReflectedField.cpp",
+  "file": "C:\\dev\\C++\\TinyReflect\\HeaderTool\\Source\\ReflectedField.cpp"
+},
+{
+  "directory": "C:/dev/C++/TinyReflect/Build/windows-x64-release",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\PROFES~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DUNICODE -D_CONSOLE -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_NONSTDC_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS -DUNICODE -D_UNICODE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -D_CRT_SECURE_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS -D_UNICODE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -IC:\\llvm\\include -IC:\\dev\\C++\\TinyReflect\\HeaderTool\\Include -IC:\\dev\\C++\\TinyReflect\\Framework\\Include /DWIN32 /D_WINDOWS   /Zc:inline /Zc:__cplusplus /Oi /bigobj /permissive- /W4 -wd4141 -wd4146 -wd4244 -wd4267 -wd4291 -wd4351 -wd4456 -wd4457 -wd4458 -wd4459 -wd4503 -wd4624 -wd4722 -wd4100 -wd4127 -wd4512 -wd4505 -wd4610 -wd4510 -wd4702 -wd4245 -wd4706 -wd4310 -wd4701 -wd4703 -wd4389 -wd4611 -wd4805 -wd4204 -wd4577 -wd4091 -wd4592 -wd4319 -wd4709 -wd4324 -w14062 -we4238 /Gw /MD /O2 /Ob2 /DNDEBUG -std:c++20 /FoHeaderTool\\CMakeFiles\\TinyReflect-HeaderTool.dir\\Source\\ReflectedStruct.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\C++\\TinyReflect\\HeaderTool\\Source\\ReflectedStruct.cpp",
+  "file": "C:\\dev\\C++\\TinyReflect\\HeaderTool\\Source\\ReflectedStruct.cpp"
+},
+{
+  "directory": "C:/dev/C++/TinyReflect/Build/windows-x64-release",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\PROFES~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DUNICODE -D_CONSOLE -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_NONSTDC_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS -DUNICODE -D_UNICODE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -D_CRT_SECURE_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS -D_UNICODE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -IC:\\llvm\\include -IC:\\dev\\C++\\TinyReflect\\HeaderTool\\Include -IC:\\dev\\C++\\TinyReflect\\Framework\\Include /DWIN32 /D_WINDOWS   /Zc:inline /Zc:__cplusplus /Oi /bigobj /permissive- /W4 -wd4141 -wd4146 -wd4244 -wd4267 -wd4291 -wd4351 -wd4456 -wd4457 -wd4458 -wd4459 -wd4503 -wd4624 -wd4722 -wd4100 -wd4127 -wd4512 -wd4505 -wd4610 -wd4510 -wd4702 -wd4245 -wd4706 -wd4310 -wd4701 -wd4703 -wd4389 -wd4611 -wd4805 -wd4204 -wd4577 -wd4091 -wd4592 -wd4319 -wd4709 -wd4324 -w14062 -we4238 /Gw /MD /O2 /Ob2 /DNDEBUG -std:c++20 /FoHeaderTool\\CMakeFiles\\TinyReflect-HeaderTool.dir\\Source\\TranslationUnit.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\C++\\TinyReflect\\HeaderTool\\Source\\TranslationUnit.cpp",
+  "file": "C:\\dev\\C++\\TinyReflect\\HeaderTool\\Source\\TranslationUnit.cpp"
+},
+{
+  "directory": "C:/dev/C++/TinyReflect/Build/windows-x64-release",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\PROFES~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DUNICODE -D_CONSOLE -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_NONSTDC_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS -DUNICODE -D_UNICODE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -D_CRT_SECURE_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS -D_UNICODE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -IC:\\llvm\\include -IC:\\dev\\C++\\TinyReflect\\HeaderTool\\Include -IC:\\dev\\C++\\TinyReflect\\Framework\\Include /DWIN32 /D_WINDOWS   /Zc:inline /Zc:__cplusplus /Oi /bigobj /permissive- /W4 -wd4141 -wd4146 -wd4244 -wd4267 -wd4291 -wd4351 -wd4456 -wd4457 -wd4458 -wd4459 -wd4503 -wd4624 -wd4722 -wd4100 -wd4127 -wd4512 -wd4505 -wd4610 -wd4510 -wd4702 -wd4245 -wd4706 -wd4310 -wd4701 -wd4703 -wd4389 -wd4611 -wd4805 -wd4204 -wd4577 -wd4091 -wd4592 -wd4319 -wd4709 -wd4324 -w14062 -we4238 /Gw /MD /O2 /Ob2 /DNDEBUG -std:c++20 /FoHeaderTool\\CMakeFiles\\TinyReflect-HeaderTool.dir\\Source\\TypeFinder.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\C++\\TinyReflect\\HeaderTool\\Source\\TypeFinder.cpp",
+  "file": "C:\\dev\\C++\\TinyReflect\\HeaderTool\\Source\\TypeFinder.cpp"
+},
+{
+  "directory": "C:/dev/C++/TinyReflect/Build/windows-x64-release",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\PROFES~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -D_CONSOLE -IC:\\dev\\C++\\TinyReflect\\Samples\\BasicSample\\Include -IC:\\dev\\C++\\TinyReflect\\Build\\windows-x64-release\\Samples\\BasicSample\\Generated -IC:\\dev\\C++\\TinyReflect\\Framework\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++20 /FoSamples\\BasicSample\\CMakeFiles\\TinyReflect-BasicSample.dir\\Source\\BasicSample.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\C++\\TinyReflect\\Samples\\BasicSample\\Source\\BasicSample.cpp",
+  "file": "C:\\dev\\C++\\TinyReflect\\Samples\\BasicSample\\Source\\BasicSample.cpp"
+},
+{
+  "directory": "C:/dev/C++/TinyReflect/Build/windows-x64-release",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\PROFES~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -D_CONSOLE -IC:\\dev\\C++\\TinyReflect\\Samples\\BasicSample\\Include -IC:\\dev\\C++\\TinyReflect\\Build\\windows-x64-release\\Samples\\BasicSample\\Generated -IC:\\dev\\C++\\TinyReflect\\Framework\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++20 /FoSamples\\BasicSample\\CMakeFiles\\TinyReflect-BasicSample.dir\\Source\\DumpVisitor.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\C++\\TinyReflect\\Samples\\BasicSample\\Source\\DumpVisitor.cpp",
+  "file": "C:\\dev\\C++\\TinyReflect\\Samples\\BasicSample\\Source\\DumpVisitor.cpp"
+}
+]

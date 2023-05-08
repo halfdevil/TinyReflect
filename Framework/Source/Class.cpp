@@ -60,13 +60,20 @@ namespace TinyReflect
 		}
 		else
 		{
-			if (field->getFlags() & (uint8_t)FieldFlags::CString)
+			if (type->isEnum())
 			{
-				visitor->stringPrimitive(type, ptr);
+				visitor->enumElement(type, ptr);
 			}
 			else
 			{
-				visitor->primitive(type, ptr);
+				if (field->getFlags() & (uint8_t)FieldFlags::CString)
+				{
+					visitor->stringPrimitive(type, ptr);
+				}
+				else
+				{
+					visitor->primitive(type, ptr);
+				}
 			}
 		}
 	}
@@ -77,7 +84,7 @@ namespace TinyReflect
 		const FieldQualifier& qualifier = field->getQualifier();
 
 		visitor->classMember(field, depth);
-		visitor->arrayBegin(type, depth, (int32_t)qualifier.arrayLen);
+		visitor->arrayBegin(type, depth, (int32_t)qualifier.arrayLen, ptr);
 
 		const char* p = (const char*)ptr;
 		for (uint32_t i = 0; i < qualifier.arrayLen; i++)
@@ -97,7 +104,7 @@ namespace TinyReflect
 			return;
 		}
 
-		visitor->classBegin(this, depth);
+		visitor->classBegin(this, depth, instance);
 
 		for (auto& field : getFields())
 		{

@@ -19,6 +19,7 @@ namespace TinyReflect
 {
 	extern const Type* GetTypeImpl(TypeTag<void>);
 
+	DEFINE_TYPE_EXTERN(bool);
 	DEFINE_TYPE_EXTERN(float);
 	DEFINE_TYPE_EXTERN(int8_t);
 	DEFINE_TYPE_EXTERN(int16_t);

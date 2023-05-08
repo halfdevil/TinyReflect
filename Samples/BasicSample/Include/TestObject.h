@@ -1,7 +1,6 @@
 #pragma once
 
 #include "Property.h"
-#include "TestObjectCustom.h"
 
 namespace TinyReflect
 {
@@ -27,28 +26,17 @@ namespace TinyReflect
 
 	class CLASS() TestObject
 	{
-	public:
-
 		BODY()
 
-		TestObject() = default;
-		TestObject(const std::string & name) : 
-			mObjectName(name)
-		{
-		}
-
-	private:
+	public:
 
 		PROPERTY()
 		std::string mObjectName;
 
 		PROPERTY()
-		TestStruct mStruct;
-
-		PROPERTY()
 		TestEnum mEnum { TestEnum::Enum1 };
 
 		PROPERTY()
-		TestObjectCustom mCustomObject;
+		TestStruct mStruct;
 	};
 }

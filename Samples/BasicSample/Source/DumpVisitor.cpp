@@ -10,77 +10,119 @@ namespace TinyReflect
 		"                                                                             "
 		"                                                                             ";
 
-	void DumpVisitor::classBegin(const Class* c, int32_t depth)
+	void DumpVisitor::classBegin(const Class* c, int32_t depth, const void* instance)
 	{
-		printf("%s {", c->getName());
+		printf("%s {\n", c->getName());
 	}
 
 	void DumpVisitor::classEnd(const Class* c, int32_t depth)
 	{
-		printf("%.*s}", depth * 2, spaces);
+		printf("%.*s}\n", depth * 4, spaces);
 	}
 
 	void DumpVisitor::classMember(const Field* f, int32_t depth)
 	{
-		printf("%.*s.%s = ", depth * 2, spaces, f->getName());
+		printf("%.*s.%s = ", depth * 4, spaces, f->getName());
 	}
 
-	void DumpVisitor::arrayBegin(const Type* t, int32_t depth, int32_t length)
+	void DumpVisitor::arrayBegin(const Type* t, int32_t depth, int32_t length, const void* instance)
 	{
-		printf("[");
+		printf("[\n");
 	}
 
 	void DumpVisitor::arrayEnd(const Type* t, int32_t depth)
 	{
-		printf("%.*s]", depth * 2, spaces);
+		printf("%.*s]\n", depth * 4, spaces);
 	}
 
 	void DumpVisitor::arrayElement(const Type* t, int32_t depth, int32_t elem)
 	{
-		printf("%.*s[%d] = ", depth * 2, spaces, elem);
+		printf("%.*s[%d] = ", depth * 4, spaces, elem);
 	}
 
-	void DumpVisitor::mapBegin(const Type* t, int32_t depth, int32_t count)
+	void DumpVisitor::vectorBegin(const Type* t, int32_t depth, int32_t length, const void* instance)
 	{
-		printf("{");
+		printf("[\n");
+	}
+
+	void DumpVisitor::vectorEnd(const Type* t, int32_t depth)
+	{
+		printf("%.*s]\n", depth * 4, spaces);
+	}
+
+	void DumpVisitor::vectorElement(const Type* t, int32_t depth, int32_t elem)
+	{
+		printf("%.*s[%d] = ", depth * 4, spaces, elem);
+	}
+
+	void DumpVisitor::mapBegin(const Type* t, int32_t depth, int32_t count, const void* instance)
+	{
+		printf("{\n");
 	}
 
 	void DumpVisitor::mapEnd(const Type* t, int32_t depth)
 	{
-		printf("%.*s}", depth * 2, spaces);
+		printf("%.*s}\n", depth * 4, spaces);
 	}
 
 	void DumpVisitor::mapElement(const Type* kt, const Type* vt, int32_t depth, const void* key)
 	{
-		printf("%.*s[%s] = ", depth * 2, spaces, getValue(kt, key).c_str());
+		printf("%.*s[%s] = ", depth * 4, spaces, getValue(kt, key).c_str());
+	}
+
+	void DumpVisitor::enumElement(const Type* t, const void* instance)
+	{
+		if (!instance)
+		{
+			printf("nullptr\n");
+			return;
+		}
+
+		printf("%s{ %s }\n", t->getName(), std::to_string(*((uint32_t*)instance)).c_str());
 	}
 
 	void DumpVisitor::primitive(const Type* t, const void* instance)
 	{
 		if (!instance)
 		{
-			printf("nullptr");
+			printf("nullptr\n");
 			return;
 		}
 
-		printf("%s{ %s }", t->getName(), getValue(t, instance).c_str());
+		printf("%s{ %s }\n", t->getName(), getValue(t, instance).c_str());
 	}
 
 	void DumpVisitor::stringPrimitive(const Type* t, const void* instance)
 	{
 		if (!instance)
 		{
-			printf("nullptr");
+			printf("nullptr\n");
 			return;
 		}
 
 		const char** str = (const char**)instance;
-		printf("%s{ %s }", t->getName(), *str);
+		printf("%s{ %s }\n", t->getName(), *str);
+	}
+
+	void DumpVisitor::stringElement(const Type* t, const void* instance)
+	{
+		if (!instance)
+		{
+			printf("nullptr\n");
+			return;
+		}
+
+		const std::string* str = (const std::string*)instance;
+		printf("%s{ %s }\n", t->getName(), str->c_str());
 	}
 
 	std::string DumpVisitor::getValue(const Type* t, const void* instance)
 	{
-		if (t->getHash() == GetType<float>()->getHash())
+		if (t->getHash() == GetType<bool>()->getHash())
+		{
+			return std::to_string(*((bool*)instance));
+		}
+		else if (t->getHash() == GetType<float>()->getHash())
 		{
 			return std::to_string(*((float*)instance));
 		}

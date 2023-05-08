@@ -16,6 +16,9 @@ namespace TinyReflect
 			int32_t depth = 0) const override;
 	};
 
+	template <>
 	const Class* GetClassImpl(ClassTag<std::string>);
+
+	template <>
 	const Type* GetTypeImpl(TypeTag<std::string>);
 }

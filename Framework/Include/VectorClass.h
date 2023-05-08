@@ -2,7 +2,7 @@
 
 #include "TemplateClass.h"
 #include "ClassVisitor.h"
-#include <vector>
+#include "Vector.h"
 
 namespace TinyReflect
 {
@@ -27,11 +27,11 @@ namespace TinyReflect
 			const Type* type = GetType<typename T::value_type>();
 			const T* vec = (const T*)instance;
 
-			visitor->arrayBegin(this, depth, (uint32_t)vec->size());
+			visitor->vectorBegin(this, depth, (uint32_t)vec->size(), instance);
 
 			for (const auto& e : *vec)
 			{
-				visitor->arrayElement(type, depth + 1, i++);
+				visitor->vectorElement(type, depth + 1, i++);
 
 				if (type->isRecord())
 				{
@@ -44,27 +44,27 @@ namespace TinyReflect
 				}
 			}
 
-			visitor->arrayEnd(this, depth);
+			visitor->vectorEnd(this, depth);
 		}
 	};
 
 	template <class T>
-	const Class* GetClassImpl(ClassTag<std::vector<T>>)
+	const Class* GetClassImpl(ClassTag<Vector<T>>)
 	{
 		static uint32_t numFields = 0;
 		static Field fields[1];
 
 		static uint32_t numTemplateArgs = 1;
 		static Field templateArgs[2] = {
-			Field(GetType<T>(), TypeName<T>::get(), 0, 0, {}, {})
+			Field(GetType<T>(), TypeName<T>::get(), 0, 0, {})
 		};
 
 		static std::string typeName =
-			std::string("std::vector<") +
+			std::string("Vector<") +
 			std::string(TypeName<T>::get()) +
 			std::string(">");
 
-		static VectorClass<std::vector<T>> cls(typeName.c_str(), sizeof(std::vector<T>),
+		static VectorClass<Vector<T>> cls(nullptr, typeName.c_str(), sizeof(Vector<T>),
 			fields, fields + numFields,	templateArgs, 
 			templateArgs + numTemplateArgs);
 
@@ -72,8 +72,8 @@ namespace TinyReflect
 	}
 
 	template <typename T>
-	const Type* GetTypeImpl(TypeTag<std::vector<T>>)
+	const Type* GetTypeImpl(TypeTag<Vector<T>>)
 	{
-		return GetClassImpl(ClassTag<std::vector<T>>());
+		return GetClassImpl(ClassTag<Vector<T>>());
 	}
 }

@@ -176,6 +176,12 @@ namespace TinyReflect
 			return pointerType->getPointeeType();
 		}
 
+		const clang::ArrayType* arrayType = clang::dyn_cast_or_null<clang::ArrayType>(t);
+		if (arrayType)
+		{
+			return arrayType->getElementType();
+		}
+
 		TypeVisitor visitor;
 		visitor.TraverseType(type);
 

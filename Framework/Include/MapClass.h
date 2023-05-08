@@ -2,7 +2,7 @@
 
 #include "TemplateClass.h"
 #include "ClassVisitor.h"
-#include <unordered_map>
+#include "Map.h"
 
 namespace TinyReflect
 {
@@ -22,11 +22,11 @@ namespace TinyReflect
 				return;
 			}
 
-			const Type* keyType = GetType<typename T::key_type>();
+			const Type* keyType = GetType<std::string>();
 			const Type* valueType = GetType<typename T::mapped_type>();
 			const T* umap = (const T*)instance;
 
-			visitor->mapBegin(this, depth, (uint32_t)umap->size());
+			visitor->mapBegin(this, depth, (uint32_t)umap->size(), instance);
 
 			for (const auto& it : *umap)
 			{
@@ -47,35 +47,32 @@ namespace TinyReflect
 		}
 	};
 
-	template <typename T, typename V>
-	const Class* GetClassImpl(ClassTag<std::unordered_map<T, V>>)
+	template <typename T>
+	const Class* GetClassImpl(ClassTag<Map<T>>)
 	{
 		static uint32_t numFields = 0;
 		static Field fields[1];
 
-		static uint32_t numTemplateArgs = 2;
-		static Field templateArgs[3] = {
-			Field(GetType<T>(), TypeName<T>::get(), 0, 0, {}, {}),
-			Field(GetType<V>(), TypeName<V>::get(), 0, 0, {}, {})
+		static uint32_t numTemplateArgs = 1;
+		static Field templateArgs[2] = {
+			Field(GetType<T>(), TypeName<T>::get(), 0, 0, {})
 		};
 
 		static std::string typeName =
-			std::string("std::unordered_map<") +
+			std::string("Map<") +
 			std::string(TypeName<T>::get()) +
-			std::string(", ") +
-			std::string(TypeName<V>::get()) +
 			std::string(">");
 
-		static MapClass<std::unordered_map<T, V>> cls(typeName.c_str(), sizeof(std::unordered_map<T, V>),
+		static MapClass<Map<T>> cls(nullptr, typeName.c_str(), sizeof(Map<T>),
 			fields, fields + numFields,	templateArgs, 
 			templateArgs + numTemplateArgs);
 
 		return &cls;
 	}
 
-	template <typename T, typename V>
-	const Type* GetTypeImpl(TypeTag<std::unordered_map<T, V>>)
+	template <typename T>
+	const Type* GetTypeImpl(TypeTag<Map<T>>)
 	{
-		return GetClassImpl(ClassTag<std::unordered_map<T, V>>());
+		return GetClassImpl(ClassTag<Map<T>>());
 	}
 }

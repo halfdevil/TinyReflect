@@ -8,6 +8,7 @@ namespace TinyReflect
 		return &type;
 	}
 
+	DEFINE_TYPE(bool);
 	DEFINE_TYPE(float);
 	DEFINE_TYPE(int8_t);
 	DEFINE_TYPE(int16_t);

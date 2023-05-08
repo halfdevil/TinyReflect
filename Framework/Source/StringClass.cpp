@@ -10,12 +10,10 @@ namespace TinyReflect
 			return;
 		}
 
-		const std::string* str = (const std::string*)instance;
-		const char* cstr = str->c_str();
-
-		visitor->stringPrimitive(this, &cstr);
+		visitor->stringElement(this, instance);
 	}
 
+	template <>
 	const Class* GetClassImpl(ClassTag<std::string>)
 	{
 		static uint32_t numFields = 0;
@@ -27,6 +25,7 @@ namespace TinyReflect
 		return &cls;
 	}
 
+	template <>
 	const Type* GetTypeImpl(TypeTag<std::string>)
 	{
 		return GetClassImpl(ClassTag<std::string>());
